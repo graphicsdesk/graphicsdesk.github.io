@@ -1,13 +1,10 @@
 {
   "name": "home",
-  "homepage": "https://graphicsdesk.github.io/home",
   "version": "3.0.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d public"
+    "start": "sirv docs"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",

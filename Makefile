@@ -1,4 +1,4 @@
-IMG_DIR := public/images
+IMG_DIR := docs/images
 
 INPUTS := $(wildcard $(IMG_DIR)/*.png)
 OUTPUTS := $(patsubst $(IMG_DIR)/%.png,$(IMG_DIR)/%.webp,$(INPUTS))
