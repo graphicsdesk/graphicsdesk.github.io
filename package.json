@@ -1,7 +1,7 @@
 {
   "name": "home",
   "homepage": "https://graphicsdesk.github.io/home",
-  "version": "3.0.0",
+  "private": true,
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
