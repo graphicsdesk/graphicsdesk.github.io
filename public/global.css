@@ -1,99 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;800&display=swap');
 
-html, body {
-	position: relative;
-	width: 100%;
-	height: 100%;
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /**
  * Disable smooth scrolling when users have prefers-reduced-motion enabled
  */
- @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
-	color: #121212;
-	margin: 0;
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-size: 22px;
-	line-height: 29px;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
+  color: #121212;
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 29px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  cursor: url(https://github.com/graphicsdesk/graphicsdesk.github.io/blob/develop/public/favicon-32x32.png?raw=true),
+    auto;
 }
 
 a {
-	color: rgb(0,100,200);
-	text-decoration: none;
+  color: rgb(0, 100, 200);
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:visited {
-	color: rgb(0,80,160);
+  color: rgb(0, 80, 160);
 }
 
 label {
-	display: block;
+  display: block;
 }
 
-input, button, select, textarea {
-	font-family: inherit;
-	font-size: inherit;
-	padding: 0.4em;
-	margin: 0 0 0.5em 0;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 2px;
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
 }
 
 input:disabled {
-	color: #ccc;
+  color: #ccc;
 }
 
-input[type="range"] {
-	height: 0;
+input[type='range'] {
+  height: 0;
 }
 
 button {
-	border: none;
-	background: none;
-	padding: 0;
-	margin: 0;
-	color: inherit;
-	outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  outline: none;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 p {
-	margin: 0;
+  margin: 0;
 }
 
 header {
-	font-size: 22px;
-	line-height: 29px;
+  font-size: 22px;
+  line-height: 29px;
 }
 
 @media (max-width: 660px) {
-	body {
-		font-size: 21px;
-		line-height: 27px;
-	}
+  body {
+    font-size: 21px;
+    line-height: 27px;
+  }
 
-	header {
-		font-size: 19px;
-		line-height: 26px;
-	}
+  header {
+    font-size: 19px;
+    line-height: 26px;
+  }
 }
