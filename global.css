@@ -33,7 +33,7 @@ body {
 }
 
 a {
-  color: rgb(0, 100, 200);
+  color: #337ab7;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ a:hover {
 }
 
 a:visited {
-  color: rgb(0, 80, 160);
+  color: #337ab7;
 }
 
 label {
