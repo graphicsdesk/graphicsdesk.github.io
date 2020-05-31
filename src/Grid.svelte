@@ -31,7 +31,7 @@
       fr = clientWidth;
       gridColumns = '1fr';
     } else if (fr < minFr + 100) {
-       fr = (clientWidth - columnGap * (2 - 1)) / 2;
+      fr = (clientWidth - columnGap * (2 - 1)) / 2;
       gridColumns = '1fr 1fr';
     } else {
       gridColumns = '1fr '.repeat(columns);
@@ -73,12 +73,25 @@
     color: #888;
   }
 
-  .date {
+  .meta {
     font-family: Inconsolata;
     white-space: nowrap;
     font-size: 20px;
     font-weight: 600;
-    opacity: 0.4;
+    opacity: 0.45;
+  }
+
+  .git {
+    opacity: 1;
+  }
+
+  .git a {
+    color: #898989;
+    font-weight: 400;
+  }
+
+  p {
+    display: inline;
   }
 </style>
 
@@ -88,7 +101,7 @@
   {columns === 1 && 'text-align: center'}"
   bind:clientWidth
 >
-  {#each projects as { name, image, description, url, date }, index}
+  {#each projects as { name, image, description, url, date, repo, data }, index}
     <div>
       <a href={url} style="color: {color(index)}">
         <div class="media" style="height: {Math.round(mediaHeight)}px">
@@ -108,10 +121,22 @@
         <p>
           {@html name}
           {#if date && date.length > 0}
-            <span class="date">{date}</span>
+            <span class="meta">{date}</span>
           {/if}
         </p>
       </a>
+
+      {#if repo}
+        <span class="meta git">
+          <a href="https://github.com/graphicsdesk/{repo}">[repo]</a>
+        </span>
+      {/if}
+      {#if data}
+        <span class="meta git">
+          <a href="https://github.com/graphicsdesk/{data}">[data]</a>
+        </span>
+      {/if}
+
       {#if description}
         <p class="description">{description}</p>
       {/if}

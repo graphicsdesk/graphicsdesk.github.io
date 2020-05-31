@@ -168,19 +168,8 @@
 
   <Grid projects={projects.topLevel} />
 
-  <SectionHeader id="extended-portfolio" centered>
-    More work on
-    <a href="https://www.github.com/graphicsdesk">GitHub</a>
-  </SectionHeader>
-  <!-- <Grid
-    projects={projects.secondLevel.slice(0, projects.secondLevel.length - 4)}
-  />
   <Grid
-    projects={projects.secondLevel.slice(projects.secondLevel.length - 4, projects.secondLevel.length - 1)}
-    columns={3}
-  /> -->
-  <Grid
-    projects={projects.secondLevel.slice(projects.secondLevel.length - 1)}
+    projects={projects.secondLevel}
     columns={1}
   />
 

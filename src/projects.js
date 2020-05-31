@@ -4,12 +4,15 @@ export default {
       name:
         'Columbia wants the best and the brightest students. To keep up with top-ranked schools, it needs the richest too.',
       image: 'https://i.imgur.com/gIjcnke.png',
+      repo: 'recession-financial-aid',
+      data: 'socioeconomic-diversity',
       url:
         'https://www.columbiaspectator.com/news/2020/05/24/columbia-wants-the-best-and-the-brightest-students-to-keep-up-with-top-ranked-schools-it-needs-the-richest-too-2/',
     },
     {
       name:
         'Uncertainty Looms as Student Jobs are Disappearing During the Great Lockdown',
+      repo: 'job-loss',
       image:
         'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MJQEFP4WVNASVES4BCIJCHKZKM.gif',
       url:
@@ -18,6 +21,8 @@ export default {
     {
       name:
         'The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.',
+      repo: 'ivy-coronavirus-response',
+      data: 'covid-cases',
       image:
         'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Q4S24TEP2ZFTNH6P245MIKDQYY.gif',
       url:
@@ -26,6 +31,8 @@ export default {
     {
       name:
         'Columbia tuition rates are among the highest in the country. Is it worth it?',
+      repo: 'earnings',
+      data: 'earnings-debt-2019',
       url:
         'https://www.columbiaspectator.com/news/2020/01/23/columbia-tuition-rates-are-among-the-highest-in-the-country-is-it-worth-it/',
       image:
@@ -34,6 +41,8 @@ export default {
     {
       name:
         'Segregation exposes Black residents to health risks. Hospitals are disincentivized from treating them.',
+      repo: 'low-income-hospitals',
+      data: 'hospital-data',
       url:
         'https://www.columbiaspectator.com/news/2020/04/18/segregation-exposes-black-residents-to-health-risks-hospitals-are-disincentivized-from-treating-them/',
       image:
@@ -42,6 +51,7 @@ export default {
     {
       name:
         'West Harlem residents fall under the most at risk groups for contracting COVID. High poverty rates will make recovery an uphill battle.',
+      repo: 'covid-healthcare',
       url:
         'https://www.columbiaspectator.com/news/2020/04/13/west-harlem-residents-fall-under-the-most-at-risk-groups-for-contracting-covid-high-poverty-rates-will-make-recovery-an-uphill-battle/',
       image:
@@ -50,6 +60,7 @@ export default {
     {
       name:
         '[100 words] We asked how COVID-19 has impacted student’s lives. Here are their responses.',
+      repo: '100-words',
       url:
         'https://www.columbiaspectator.com/opinion/2020/03/29/100-words-we-asked-how-covid-19-has-impacted-students-lives-here-are-their-responses/',
       image:
@@ -58,6 +69,7 @@ export default {
     {
       name:
         'Community members see long-awaited safety improvements to Morningside Park in aftermath of Majors’ death',
+      repo: 'park-lights',
       url:
         'https://www.columbiaspectator.com/news/2020/01/30/community-members-see-long-awaited-safety-improvements-to-morningside-park-in-aftermath-of-majors-death/',
       image:
@@ -66,6 +78,7 @@ export default {
     {
       name:
         'As Majors’ case awaits trial, experts say public urgency has led to unfair treatment of youth suspects',
+      repo: 'suspects-disparity',
       url:
         'https://www.columbiaspectator.com/news/2020/03/25/as-majors-case-awaits-trial-experts-say-public-urgency-has-led-to-unfair-treatment-of-youth-suspects/',
       image:
@@ -74,6 +87,7 @@ export default {
     {
       name:
         '‘The next chapter’: Despite history of alumni apathy, Bollinger-era initiatives drive newfound culture of engagement',
+      repo: 'giving-day',
       url:
         'https://www.columbiaspectator.com/news/2019/10/31/the-next-chapter-despite-history-of-alumni-apathy-bollinger-era-initiatives-drive-newfound-culture-of-engagement/',
       image:
@@ -82,6 +96,7 @@ export default {
     {
       name:
         'Students and Faculty Say Gender-Based Harassment and Discrimination at Columbia is Systemic. Why Are They Turning Away From the System Built to Address It?',
+      repo: 'eoaa',
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/11/15/students-and-faculty-say-gender-based-harassment-and-discrimination-at-columbia-is-systemic-why-are-they-turning-away-from-the-system-built-to-address-it/',
       image:
@@ -98,6 +113,7 @@ export default {
     {
       name:
         'With classroom space shortage, Morningside Heights campus forced to expand boundaries',
+      repo: 'class-space-fall19',
       url:
         'https://www.columbiaspectator.com/news/2019/09/19/with-classroom-space-shortage-morningside-heights-campus-forced-to-expand-boundaries/',
       image:
@@ -114,6 +130,7 @@ export default {
     {
       name:
         'Over a fourth of West Harlem did not self-report in the 2010 census. COVID-19 could make numbers worse.',
+      repo: 'census-self-response',
       url:
         'https://www.columbiaspectator.com/news/2020/04/02/over-a-fourth-of-west-harlem-was-not-self-reported-in-the-2010-census-covid-19-could-make-numbers-worse/',
       image:
@@ -143,6 +160,7 @@ export default {
     {
       name:
         'Who are Columbia affiliates backing in 2020? Campaign donation data shows Booker in the lead.',
+      repo: 'political-candidates',
       url:
         'https://www.columbiaspectator.com/news/2019/11/23/who-are-columbia-affiliates-backing-in-2020-campaign-donation-data-shows-booker-in-the-lead-2/',
       image: 'https://i.imgur.com/rhFFwvJ.png',
@@ -156,6 +174,7 @@ export default {
     {
       name:
         'Decades of Uncertainty: A visual history of the linguistics major through the Spec archives',
+      repo: 'linguistics-major',
       image:
         'https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6FWL3IYTB5BLNBDFH5XBXT5JHQ.jpg',
       url:
