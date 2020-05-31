@@ -95,6 +95,13 @@ export default {
     },
     {
       name:
+        'As the pandemic rages on, Columbia braces for widespread financial fallout',
+      url:
+        'https://www.columbiaspectator.com/news/2020/04/16/as-the-pandemic-rages-on-columbia-braces-for-widespread-financial-fallout/',
+      image: 'https://i.imgur.com/cRmY2zZ.png',
+    },
+    {
+      name:
         'Students and Faculty Say Gender-Based Harassment and Discrimination at Columbia is Systemic. Why Are They Turning Away From the System Built to Address It?',
       repo: 'eoaa',
       url:
@@ -142,13 +149,6 @@ export default {
       url:
         'https://www.columbiaspectator.com/news/2019/10/17/they-dont-follow-the-rules-inside-barnards-broken-relationship-with-its-employee-union/',
       image: 'https://i.imgur.com/r2JsuXc.png',
-    },
-    {
-      name:
-        'As the pandemic rages on, Columbia braces for widespread financial fallout',
-      url:
-        'https://www.columbiaspectator.com/news/2020/04/16/as-the-pandemic-rages-on-columbia-braces-for-widespread-financial-fallout/',
-      image: 'https://i.imgur.com/cRmY2zZ.png',
     },
     {
       name:

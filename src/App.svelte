@@ -148,7 +148,7 @@
 <main style="max-width: {MAX_WIDTH}px">
 
   <header>
-    <!-- <div>
+    <div>
       <p>
         <b>Spectator Graphics</b>
       </p>
@@ -156,12 +156,12 @@
     <div>
       <p>Homepage.</p>
       <p class="gray">
-        <a href="https://github.com/graphicsdesk/">GitHub.</a>
+        <a href="#people">People.</a>
       </p>
-    </div> -->
+    </div>
   </header>
 
-  <p class="nutgraf">Homepage for the Spectator Graphics team.</p>
+  <p class="nutgraf">An homepage for our open-source graphics, data, analysis and tools.</p>
 
   <div class="nutgraf contact" class:contactFocused>
     <p>
@@ -175,14 +175,13 @@
   <Grid projects={projects.secondLevel} columns={1} />
 
   <footer>
-    <SectionHeader>Our people</SectionHeader>
+    <SectionHeader id="people">Our people</SectionHeader>
     <div class="buzzwords">
       <ul>
         {#each people as { link, name, twitter, git }}
           <li>
             <p>
               <a
-                style="color: ##337ab7;"
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
