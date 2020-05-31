@@ -161,7 +161,7 @@
     </div>
   </header>
 
-  <p class="nutgraf">An homepage for our open-source graphics, data, analysis and tools.</p>
+  <p class="nutgraf">A homepage for our open-source graphics, data, analysis and tools.</p>
 
   <div class="nutgraf contact" class:contactFocused>
     <p>
