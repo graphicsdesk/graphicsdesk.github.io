@@ -10,23 +10,27 @@
 
   let contactFocused = false;
 
-  const people = projects.people.map(person => {
-    let name = person;
-    let twitter;
-    if (Array.isArray(person)) {
-      name = person[0];
-      twitter = person[1];
-    }
-    const nameEnd = name.indexOf(' (');
-    const slug = nameEnd === -1 ? name : name.slice(0, nameEnd);
-    return {
-      name,
-      link:
-        'https://www.columbiaspectator.com/contributors/' +
-        slug.replace(/\s/g, '-'),
-      twitter,
-    };
-  });
+  const people = projects.people
+    .map(person => {
+      let name = person;
+      let twitter, git;
+      if (Array.isArray(person)) {
+        name = person[0];
+        twitter = person[1];
+        git = person[2];
+      }
+      const nameEnd = name.indexOf(' (');
+      const slug = nameEnd === -1 ? name : name.slice(0, nameEnd);
+      return {
+        name,
+        link:
+          'https://www.columbiaspectator.com/contributors/' +
+          slug.replace(/\s/g, '-'),
+        twitter,
+        git,
+      };
+    })
+    .sort((a, b) => (a.name > b.name ? 1 : -1));
 
   projects.topLevel = projects.topLevel.map(({ url, ...rest }) => ({
     ...rest,
@@ -168,16 +172,13 @@
 
   <Grid projects={projects.topLevel} />
 
-  <Grid
-    projects={projects.secondLevel}
-    columns={1}
-  />
+  <Grid projects={projects.secondLevel} columns={1} />
 
   <footer>
-    <SectionHeader>Our team</SectionHeader>
+    <SectionHeader>Our people</SectionHeader>
     <div class="buzzwords">
       <ul>
-        {#each people as { link, name, twitter }}
+        {#each people as { link, name, twitter, git }}
           <li>
             <p>
               <a
@@ -188,16 +189,28 @@
               >
                 {name}
               </a>
-              {#if twitter}
-                <a
-                  class="twitter"
-                  href="https://twitter.com/{twitter}"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  @{twitter}
-                </a>
-              {/if}
+              <span>
+                {#if twitter}
+                  <a
+                    class="twitter"
+                    href="https://twitter.com/{twitter}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    [tw]
+                  </a>
+                {/if}
+                {#if git}
+                  <a
+                    class="twitter"
+                    href="https://github.com/{git}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    [gh]
+                  </a>
+                {/if}
+              </span>
             </p>
           </li>
         {/each}
