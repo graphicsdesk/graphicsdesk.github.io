@@ -19,13 +19,11 @@
         twitter = person[1];
         git = person[2];
       }
-      const nameEnd = name.indexOf(' (');
-      const slug = nameEnd === -1 ? name : name.slice(0, nameEnd);
       return {
         name,
         link:
           'https://www.columbiaspectator.com/contributors/' +
-          slug.replace(/\s/g, '-'),
+          name.replace(/“.*” /, '').replace(/\s/g, '-'),
         twitter,
         git,
       };
