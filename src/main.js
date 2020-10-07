@@ -8,6 +8,4 @@ export default function () {
   new App({
     target: document.body,
   });
-  
-  alert('We are recruiting! Go to http://www.specpublishing.com/joinspec-applynow');
 }

@@ -2,6 +2,15 @@ export default {
   topLevel: [
     {
       name:
+        'Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation',
+      image: 'videos/steph.mov',
+      repo: 'policing-history',
+      data: 'property-acquisition',
+      url:
+        'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
+    },
+    {
+      name:
         'Columbia wants the best and the brightest students. To keep up with top-ranked schools, it needs the richest too.',
       image: 'https://i.imgur.com/gIjcnke.png',
       repo: 'recession-financial-aid',

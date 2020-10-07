@@ -105,7 +105,7 @@
     <div>
       <a href={url} style="color: {color(index)}">
         <div class="media" style="height: {Math.round(mediaHeight)}px">
-          {#if image.includes('.mp4')}
+          {#if image.includes('.mp4') || image.includes('.mov')}
             <video autoPlay playsInline muted loop>
               <source src={image} />
             </video>

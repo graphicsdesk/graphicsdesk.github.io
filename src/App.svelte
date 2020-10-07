@@ -1,12 +1,8 @@
 <script>
-  import { onMount } from 'svelte';
   import Grid from './Grid.svelte';
   import SectionHeader from './SectionHeader.svelte';
   import { MAX_WIDTH } from './constants';
   import projects from './projects';
-
-  let email;
-  onMount(() => (email = 'jason.kao@columbia.edu'));
 
   let contactFocused = false;
 
