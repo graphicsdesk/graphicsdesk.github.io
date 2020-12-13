@@ -189,6 +189,16 @@ export default {
       url:
         'https://www.columbiaspectator.com/news/2019/10/18/linguistics-major-visual-history/',
     },
+    {
+      name:
+        'Sex Diversity Among Graduate Students Is Stagnating',
+      repo: 'graduate-sex-diversity',
+      data: 'gss-diversity',
+      image:
+        'https://jasonkao.me/images/graduate-sex-diversity.mp4',
+      url:
+        'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse/',
+    },
   ],
   secondLevel: [
     {
