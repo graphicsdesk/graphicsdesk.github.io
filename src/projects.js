@@ -224,6 +224,6 @@ export default {
     ['Ellen Guo', null, 'ellenguo'],
     ['Jefferson Sheng', null, 'jsheng37'],
     ['Melissa Wang', null, 'mel-wang-wang'],
-    ['Michelle Xu', null, 'michellexu23'],
+    ['Michelle Xu', null, 'michellexu23']
   ],
 };
