@@ -20,7 +20,7 @@ export default {
     },
     {
       name:
-        'Uncertainty Looms as Student Jobs are Disappearing During the Great Lockdown',
+        'Uncertainty Looms as Student Jobs are Disappearing During the Great Lockdown <a href="https://pudding.cool/process/pudding-cup-2020/">🏆</a>',
       repo: 'job-loss',
       image:
         'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MJQEFP4WVNASVES4BCIJCHKZKM.gif',
