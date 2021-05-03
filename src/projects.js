@@ -2,6 +2,15 @@ export default {
   topLevel: [
     {
       name:
+        'International students struggle to learn across time zones as COVID-19 keeps them out of New York City',
+      image: 'videos/steph.mov',
+      repo: 'timezones-spectate',
+      data: 'timezone-data',
+      url:
+        'https://www.columbiaspectator.com/news/2021/03/08/international-students-struggle-to-learn-across-time-zones-as-covid-19-keeps-them-out-of-new-york-city/',
+    },
+    {
+      name:
         'When restaurants struggle to survive, what does it mean for the community?',
       image: 'videos/steph.mov',
       repo: 'restaurant-table-spectate',
