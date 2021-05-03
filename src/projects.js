@@ -2,6 +2,14 @@ export default {
   topLevel: [
     {
       name:
+        'The ‘inescapable’ effect of off-campus athletics: How the distance to Baker has shaped Columbia’s recruiting, performance, and sports culture',
+      image: 'videos/steph.mov',
+      repo: 'off-campus-athletics',
+      url:
+        'https://www.columbiaspectator.com/sports/2020/12/09/the-inescapable-effect-of-off-campus-athletics-how-the-distance-to-baker-has-shaped-columbias-recruiting-performance-and-sports-culture/',
+    },
+    {
+      name:
         'Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation',
       image: 'videos/steph.mov',
       repo: 'policing-history',
