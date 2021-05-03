@@ -27,6 +27,14 @@ export default {
     },
     {
       name:
+        'For Athletes, Career Networks Unlock a World of Opportunity in Finance and Consulting',
+      image: 'videos/steph.mov',
+      repo: 'athlete-tracking-employment',
+      url:
+        'https://www.columbiaspectator.com/the-eye/2020/11/14/for-athletes-career-networks-unlock-a-world-of-opportunity-in-finance-and-consulting/',
+    },
+    {
+      name:
         'Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation',
       image: 'videos/steph.mov',
       repo: 'policing-history',
