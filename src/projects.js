@@ -276,7 +276,7 @@ export default {
     ['Hong Sen Du', 'hongsendude', 'HongSenDu'],
     ['Mike Fu', null, 'haohaom1'],
     ['Stephanie Lai', 'stephaniealai'],
-    ['Charlotte “The Cursor” Li', 'shallotly', 'shallotly'],
+    ['Charlotte Li', 'shallotly', 'shallotly'],
     ['Jason Kao', 'jsonkao', 'jsonkao'],
     ['Jessica Li', 'heyjessicali', 'heyjessicali'],
     ['Ivana Moore', null, 'ivanamoore'],
@@ -288,7 +288,7 @@ export default {
     ['Elizabeth Commisso', null, 'ecommisso'],
     ['Ellen Guo', null, 'ellenguo'],
     ['Jefferson Sheng', null, 'jsheng37'],
-    ['Melissa Wang', null, 'mel-wang-wang'],
+    ['Melissa “The Cursor” Wang', null, 'mel-wang-wang'],
     ['Michelle Xu', null, 'michellexu23'],
   ],
 };
