@@ -19,6 +19,14 @@ export default {
     },
     {
       name:
+        'Hotly contested city council race draws deep-pocket support from housing industry',
+      image: 'videos/steph.mov',
+      repo: 'cd7-election-contributions',
+      url:
+        'https://www.columbiaspectator.com/news/2020/11/17/hotly-contested-city-council-race-draws-deep-pocket-support-from-housing-industry/',
+    },
+    {
+      name:
         'Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation',
       image: 'videos/steph.mov',
       repo: 'policing-history',
