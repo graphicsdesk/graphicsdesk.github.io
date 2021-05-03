@@ -2,6 +2,14 @@ export default {
   topLevel: [
     {
       name:
+        'When restaurants struggle to survive, what does it mean for the community?',
+      image: 'videos/steph.mov',
+      repo: 'restaurant-table-spectate',
+      url:
+        'https://www.columbiaspectator.com/photo-essays/2021/01/21/when-restaurants-struggle-to-survive-what-does-it-mean-for-the-community/',
+    },
+    {
+      name:
         'The ‘inescapable’ effect of off-campus athletics: How the distance to Baker has shaped Columbia’s recruiting, performance, and sports culture',
       image: 'videos/steph.mov',
       repo: 'off-campus-athletics',
