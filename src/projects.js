@@ -35,6 +35,13 @@ export default {
     },
     {
       name:
+        'Columbia canceled housing contracts, so 14,000 students moved into the city. What does this mean for the local housing market?',
+      image: 'videos/steph.mov',
+      url:
+        'https://www.columbiaspectator.com/news/2020/11/11/columbia-canceled-housing-contracts-so-14000-students-moved-into-the-city-what-does-this-mean-for-the-local-housing-market/',
+    },
+    {
+      name:
         'Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation',
       image: 'videos/steph.mov',
       repo: 'policing-history',
