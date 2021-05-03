@@ -10,6 +10,15 @@ export default {
     },
     {
       name:
+        'As COVID-19 cases rise, so does food insecurity among the homeless. Can food providers and shelters keep up?',
+      image: 'videos/steph.mov',
+      repo: 'food-insecurity',
+      data: 'covid-food-insecurity',
+      url:
+        'https://www.columbiaspectator.com/news/2020/11/30/as-covid-19-cases-rise-so-does-food-insecurity-among-the-homeless-can-food-providers-and-shelters-keep-up/',
+    },
+    {
+      name:
         'Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation',
       image: 'videos/steph.mov',
       repo: 'policing-history',
