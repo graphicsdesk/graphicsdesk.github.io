@@ -3,7 +3,7 @@ export default {
     {
       name:
         'International students struggle to learn across time zones as COVID-19 keeps them out of New York City',
-      image: 'videos/steph.mov',
+      image: 'images/timezone.gif',
       repo: 'timezones-spectate',
       data: 'timezone-data',
       url:
