@@ -12,7 +12,7 @@ export default {
     {
       name:
         'When restaurants struggle to survive, what does it mean for the community?',
-      image: 'videos/steph.mov',
+      image: 'images/table.png',
       repo: 'restaurant-table-spectate',
       url:
         'https://www.columbiaspectator.com/photo-essays/2021/01/21/when-restaurants-struggle-to-survive-what-does-it-mean-for-the-community/',
