@@ -20,7 +20,7 @@ export default {
     {
       name:
         'The ‘inescapable’ effect of off-campus athletics: How the distance to Baker has shaped Columbia’s recruiting, performance, and sports culture',
-      image: 'videos/steph.mov',
+      image: 'images/offcampus.gif',
       repo: 'off-campus-athletics',
       url:
         'https://www.columbiaspectator.com/sports/2020/12/09/the-inescapable-effect-of-off-campus-athletics-how-the-distance-to-baker-has-shaped-columbias-recruiting-performance-and-sports-culture/',
