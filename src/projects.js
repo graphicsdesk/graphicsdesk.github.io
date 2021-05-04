@@ -37,7 +37,7 @@ export default {
     {
       name:
         'Hotly contested city council race draws deep-pocket support from housing industry',
-      image: 'videos/steph.mov',
+      image: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/27T76RPOZNEFFH6LAOQJBB2U6U.png',
       repo: 'cd7-election-contributions',
       url:
         'https://www.columbiaspectator.com/news/2020/11/17/hotly-contested-city-council-race-draws-deep-pocket-support-from-housing-industry/',
