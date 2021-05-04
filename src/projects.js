@@ -53,7 +53,7 @@ export default {
     {
       name:
         'Columbia canceled housing contracts, so 14,000 students moved into the city. What does this mean for the local housing market?',
-      image: 'videos/steph.mov',
+      image: 'https://pbs.twimg.com/media/EmjkeGMVoAA8jK3?format=png&name=900x900',
       url:
         'https://www.columbiaspectator.com/news/2020/11/11/columbia-canceled-housing-contracts-so-14000-students-moved-into-the-city-what-does-this-mean-for-the-local-housing-market/',
     },
