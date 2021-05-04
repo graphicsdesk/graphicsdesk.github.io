@@ -28,7 +28,7 @@ export default {
     {
       name:
         'As COVID-19 cases rise, so does food insecurity among the homeless. Can food providers and shelters keep up?',
-      image: 'videos/steph.mov',
+      image: 'https://spectator-static-assets.s3.amazonaws.com/food-insecurity/pantries-desktop.1912af9b.svg',
       repo: 'food-insecurity',
       data: 'covid-food-insecurity',
       url:
