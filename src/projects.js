@@ -60,7 +60,7 @@ export default {
     {
       name:
         'Columbia affiliates donated far more to Biden, but Trump fares better than in 2016',
-      image: 'videos/steph.mov',
+      image: 'images/campaign.png',
       data: '2020-campaign-contributions',
       url:
         'https://www.columbiaspectator.com/news/2020/11/06/columbia-affiliates-donated-far-more-to-biden-but-trump-fares-better-than-in-2016/',
