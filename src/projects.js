@@ -45,7 +45,7 @@ export default {
     {
       name:
         'For Athletes, Career Networks Unlock a World of Opportunity in Finance and Consulting',
-      image: 'videos/steph.mov',
+      image: 'images/employment.gif',
       repo: 'athlete-tracking-employment',
       url:
         'https://www.columbiaspectator.com/the-eye/2020/11/14/for-athletes-career-networks-unlock-a-world-of-opportunity-in-finance-and-consulting/',
