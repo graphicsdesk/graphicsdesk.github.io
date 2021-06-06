@@ -19,7 +19,7 @@ export default {
     },
     {
       name:
-        'The ‘inescapable’ effect of off-campus athletics: How the distance to Baker has shaped Columbia’s recruiting, performance, and sports culture',
+        'The ‘inescapable’ effect of off-campus athletics: How the distance to Baker has shaped Columbia’s recruiting, performance, and sports culture <a href="https://www.spj.org/moe20.asp">🏆</a>',
       image: 'images/offcampus.gif',
       repo: 'off-campus-athletics',
       url:
@@ -94,7 +94,7 @@ export default {
     },
     {
       name:
-        'The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.',
+        'The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.<a href="https://www.spj.org/moe20.asp">🏆</a>',
       repo: 'ivy-coronavirus-response',
       data: 'covid-cases',
       image:
