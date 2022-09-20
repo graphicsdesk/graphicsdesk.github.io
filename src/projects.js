@@ -2,7 +2,15 @@ export default {
   topLevel: [
     {
       name:
-        'International students struggle to learn across time zones as COVID-19 keeps them out of New York City',
+        'Students find community through Columbia Confessions',
+      image: 'images/conf.gif',
+      repo: 'lonely-confessions',
+      url:
+        'https://www.columbiaspectator.com/news/2021/11/19/students-find-community-through-columbia-confessions/',
+    },
+    {
+      name:
+        'International students struggle to learn across time zones as COVID-19 keeps them out of New York City <a href="https://www.spj.org/news.asp?ref=1881">🏆</a>',
       image: 'images/timezone.gif',
       repo: 'timezones-spectate',
       data: 'timezone-data',
