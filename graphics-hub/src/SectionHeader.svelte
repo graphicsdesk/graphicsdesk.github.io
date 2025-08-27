@@ -15,7 +15,7 @@ hr {
 }
 
 p {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-transform: uppercase;
   font-family: Inconsolata;
   font-size: 18px;

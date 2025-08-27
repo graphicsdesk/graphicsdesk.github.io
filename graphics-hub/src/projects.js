@@ -289,6 +289,19 @@ export default {
     },
   ],
   people: [
+    ['Jenny Ye', null, 'jennyleaf'],
+    ['Wilson Zhen', null, null],
+    ['Alison Chiu', null, null],
+    ['Nathan Shurts', null, null],
+    ['Trinity Suma', null, null],
+    ['Diya Nair', null, null],
+    ['Emilia Lebeau', null, null],
+    ['Ava Fung', null, null],
+    ['Bryan Ammons', null, null],
+    ['Emily Ta', null, null],
+    ['Arabelle Park', null, null],
+  ],
+  pastMembers: [
     ['Hong Sen Du', 'hongsendude', 'HongSenDu'],
     ['Mike Fu', null, 'haohaom1'],
     ['Stephanie Lai', 'stephaniealai'],
@@ -306,5 +319,7 @@ export default {
     ['Jefferson Sheng', null, 'jsheng37'],
     ['Melissa “The Cursor” Wang', null, 'mel-wang-wang'],
     ['Michelle Xu', null, 'michellexu23'],
+    ['Laya Gollamudi', null, null],
+    ['Molly Durawa', null, null],
   ],
 };

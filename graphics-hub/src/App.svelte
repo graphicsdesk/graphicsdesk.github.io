@@ -26,6 +26,28 @@
     })
     .sort((a, b) => (a.name > b.name ? 1 : -1));
 
+  const pastMembers = projects.pastMembers
+    ? projects.pastMembers
+        .map(person => {
+          let name = person;
+          let twitter, git;
+          if (Array.isArray(person)) {
+            name = person[0];
+            twitter = person[1];
+            git = person[2];
+          }
+          return {
+            name,
+            link:
+              'https://www.columbiaspectator.com/contributors/' +
+              name.replace(/“.*” /, '').replace(/\s/g, '-'),
+            twitter,
+            git,
+          };
+        })
+        .sort((a, b) => (a.name > b.name ? 1 : -1))
+    : [];
+
   projects.topLevel = projects.topLevel.map(({ url, ...rest }) => ({
     ...rest,
     url,
@@ -185,6 +207,27 @@ footer {
         {/each}
       </ul>
     </div>
+
+    <SectionHeader id="past-members">Past Members</SectionHeader>
+  <div class="buzzwords">
+    <ul>
+      {#each pastMembers as { link, name, twitter, git }}
+        <li>
+          <p>
+            <a href={link} target="_blank" rel="noopener noreferrer">{name}</a>
+            <span>
+              {#if twitter}
+                <a class="twitter" href="https://twitter.com/{twitter}" target="_blank" rel="noopener noreferrer">[tw]</a>
+              {/if}
+              {#if git}
+                <a class="twitter" href="https://github.com/{git}" target="_blank" rel="noopener noreferrer">[gh]</a>
+              {/if}
+            </span>
+          </p>
+        </li>
+      {/each}
+    </ul>
+  </div>
 
     <SectionHeader empty />
     <p class="updated-text">
