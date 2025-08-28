@@ -314,7 +314,7 @@ export default {
   ],
   people: [
     ['Jenny Ye', null, 'jennyleaf'],
-    ['Wilson Zhen', null, null],
+    ['Wilson Zhen', null, 'wilsonzhen1'],
     ['Alison Chiu', null, null],
     ['Nathan Shurts', null, null],
     ['Trinity Suma', null, null],
