@@ -10,6 +10,30 @@ export default {
     },
     {
       name:
+        'Inside the Negotiation Room: How Dialogue Between Columbia and Pro-Palestinian Protesters Broke Down',
+      image: 'images/ascri.gif',
+      repo: 'finalACSRI-wz',
+      url:
+        'https://www.columbiaspectator.com/the-eye/2025/07/15/inside-the-negotiation-room-how-dialogue-between-columbia-and-pro-palestinian-protesters-broke-down/',
+    },
+     {
+      name:
+        'One of the city’s largest landlords bought nearly an entire Morningside Heights block. Then the buildings began to crumble.',
+      image: 'images/landlords.gif',
+      repo: 'landlords-jy',
+      url:
+        'https://www.columbiaspectator.com/city-news/2025/05/16/one-of-the-citys-largest-landlords-bought-nearly-an-entire-morningside-heights-block-then-the-buildings-began-to-crumble/',
+    },
+    {
+      name:
+        'Double Duty: What It Takes to Raise a Family While Earning a Degree at Columbia',
+      image: 'images/parent.gif',
+      repo: 'parentprofiles-wz',
+      url:
+        'https://www.columbiaspectator.com/the-eye/2025/05/13/double-duty-what-it-takes-to-raise-a-family-while-earning-a-degree-at-columbia-2/',
+    },
+    {
+      name:
         'Students find community through Columbia Confessions',
       image: 'images/conf.gif',
       repo: 'lonely-confessions',
@@ -295,6 +319,7 @@ export default {
     ['Nathan Shurts', null, null],
     ['Trinity Suma', null, null],
     ['Diya Nair', null, null],
+    ['Kyara Torres-Olivares', null, null],
     ['Emilia Lebeau', null, null],
     ['Ava Fung', null, null],
     ['Bryan Ammons', null, null],
@@ -321,5 +346,7 @@ export default {
     ['Michelle Xu', null, 'michellexu23'],
     ['Laya Gollamudi', null, null],
     ['Molly Durawa', null, null],
+    ['Ayaan Ali', null, null],
+    ['Ana Pekec', null, null],
   ],
 };
